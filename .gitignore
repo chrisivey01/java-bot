@@ -1,7 +1,7 @@
 .mvn/
 mvnw
 mvnw.cmd
-src/main/java/resources/application.properties
+src/main/resources/application.properties
 
 HELP.md
 /target/

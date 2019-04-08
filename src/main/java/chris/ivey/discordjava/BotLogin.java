@@ -17,6 +17,8 @@ public class BotLogin {
 
     @Bean
     public void run() throws LoginException {
-        JDA build = new JDABuilder(token).build();
+        JDA build = new JDABuilder(token)
+                .addEventListener(new ChatCommands())
+                .build();
     }
 }
